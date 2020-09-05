@@ -1,5 +1,9 @@
 # cartpole-v1
-Three solutions to the [cartpole-v1](https://gym.openai.com/envs/CartPole-v1/) environment. 1) brute force, randomized weight selection, 2) simple hill climbing solution that gradually improves randomly selected weights, and 3) a policy gradient solution.
+Three solutions to the [cartpole-v1](https://gym.openai.com/envs/CartPole-v1/) environment.   
+  
+1. Brute force, randomized weight selection  
+2. Simple hill climbing solution that gradually improves randomly selected weights  
+3. A policy gradient solution
 
 ## References
 http://kvfrans.com/simple-algoritms-for-solving-cartpole/, kevin frans
