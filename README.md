@@ -6,7 +6,7 @@ Three solutions to the [cartpole-v1](https://gym.openai.com/envs/CartPole-v1/) e
      This method randomly generates a set of weights and tests them to see if they solve the environment. If yes, done. If no, repeat.
 
 2. Hill Climbing Algorithm.  
-     This method randomly generates weights, then adds 'noise' (random weights discounted by the noise_scaling) and checks for improvement in the total reward. If there is improvement repeat, if not increase the noise_scaler and try again.
+     This method randomly generates weights, then adds 'noise' (random weights discounted by the noise_scaling) and checks for improvement in the total reward. If there is improvement repeat, if not increase the noise_scaling and try again.
 
 3. Policy Gradient Solution.  
      Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
